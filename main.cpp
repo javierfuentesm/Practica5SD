@@ -30,6 +30,7 @@ int main() {
     }
 
     poligono.imprimeEsq();
+    poligono.ordenaVertices();
     return 0;
 
 

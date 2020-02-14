@@ -6,6 +6,7 @@
 #include <iostream>
 #include<vector>
 #include <iterator>
+#include <algorithm>
 
 using namespace std;
 
@@ -21,15 +22,33 @@ void PoligonoIrregular::imprimeEsq() {
         cout.setf(ios::fixed);
         cout.setf(ios::showpoint);
         cout.precision(3);
-        cout << "x = " << ir->obtenerX() << " y = " << ir->obtenerY() << " Magnitud:"<< ir->magnitud() << endl;
+        cout << "x = " << ir->obtenerX() << " y = " << ir->obtenerY() << " Magnitud:" << ir->magnitud() << endl;
     }
-    cout<< "-----------"<< endl;
+    cout << "-----------" << endl;
 
     for (int i = 0; i < vertices.size(); ++i) {
-        cout << "x = " << vertices[i].obtenerX() << " y = " << vertices[i].obtenerY() << " Magnitud:"<< vertices[i].magnitud() << endl;
+        cout << "x = " << vertices[i].obtenerX() << " y = " << vertices[i].obtenerY() << " Magnitud:"
+             << vertices[i].magnitud() << endl;
 
     }
 }
+
+void PoligonoIrregular::ordenaVertices() {
+
+
+    sort(vertices.begin(), vertices.end(), [](Coordenada lhs, Coordenada &rhs) {
+        if (lhs.magnitud() < rhs.magnitud()) {
+
+            cout << lhs.magnitud();
+        } else {
+            cout << rhs.magnitud();
+
+        }
+
+    });
+
+
+};
 
 void PoligonoIrregular::anadeVertice(double x, double y) {
     vertices.push_back(Coordenada(x, y));

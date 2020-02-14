@@ -18,6 +18,7 @@ public:
     PoligonoIrregular();
     void anadeVertice(double x, double y);
     void imprimeEsq();
+    void ordenaVertices();
 };
 
 #endif //PRACTICA5_POLIGONOIRREGULAR_H
