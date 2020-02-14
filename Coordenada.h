@@ -14,6 +14,7 @@ public:
     Coordenada(double = 0, double = 0);
     double obtenerX();
     double obtenerY();
+    double magnitud();
 };
 
 #endif //PRACTICA5_COORDENADA_H

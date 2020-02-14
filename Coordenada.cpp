@@ -3,6 +3,8 @@
 //
 
 #include "Coordenada.h"
+#include <math.h>
+
 Coordenada::Coordenada(double xx, double yy) : x(xx), y(yy)
 { }
 double Coordenada::obtenerX()
@@ -13,4 +15,11 @@ double Coordenada::obtenerX()
 double Coordenada::obtenerY()
 {
     return y;
+}
+double Coordenada ::magnitud()
+{
+    double magnitud;
+    magnitud = x*x + y*y;
+    magnitud = sqrt(magnitud);
+    return magnitud;
 }

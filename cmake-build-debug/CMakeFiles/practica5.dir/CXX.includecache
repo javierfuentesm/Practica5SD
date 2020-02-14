@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/rjfm/CLionProjects/practica5/Coordenada.cpp
-Coordenada.h
-/Users/rjfm/CLionProjects/practica5/Coordenada.h
-
 /Users/rjfm/CLionProjects/practica5/Coordenada.h
 
 /Users/rjfm/CLionProjects/practica5/PoligonoIrregular.cpp
@@ -18,6 +14,8 @@ PoligonoIrregular.h
 iostream
 -
 vector
+-
+iterator
 -
 
 /Users/rjfm/CLionProjects/practica5/PoligonoIrregular.h
@@ -33,4 +31,6 @@ iostream
 -
 PoligonoIrregular.h
 /Users/rjfm/CLionProjects/practica5/PoligonoIrregular.h
+time.h
+-
 

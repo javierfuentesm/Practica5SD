@@ -16,7 +16,7 @@ private:
 public:
     PoligonoIrregular(std::vector<Coordenada> v);
     PoligonoIrregular();
-    void anadeVertice(int x, int y);
+    void anadeVertice(double x, double y);
     void imprimeEsq();
 };
 
