@@ -29,8 +29,9 @@ int main() {
         poligono.anadeVertice(random1, random2);
     }
 
-    poligono.imprimeEsq();
     poligono.ordenaVertices();
+    poligono.imprimeEsq();
+
     return 0;
 
 

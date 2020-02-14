@@ -26,3 +26,13 @@ vector
 Coordenada.h
 /Users/rjfm/CLionProjects/practica5/Coordenada.h
 
+/Users/rjfm/CLionProjects/practica5/main.cpp
+stdlib.h
+-
+iostream
+-
+PoligonoIrregular.h
+/Users/rjfm/CLionProjects/practica5/PoligonoIrregular.h
+time.h
+-
+
