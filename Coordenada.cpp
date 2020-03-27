@@ -1,6 +1,3 @@
-//
-// Created by Javier Fuentes Mora on 11/02/20.
-//
 
 #include "Coordenada.h"
 #include <math.h>
@@ -15,11 +12,4 @@ double Coordenada::obtenerX()
 double Coordenada::obtenerY()
 {
     return y;
-}
-double Coordenada ::magnitud()
-{
-    double magnitud;
-    magnitud = x*x + y*y;
-    magnitud = sqrt(magnitud);
-    return magnitud;
 }
