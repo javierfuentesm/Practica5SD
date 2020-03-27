@@ -11,6 +11,7 @@ void Triangulo::imprimeEsq()
   cout << "x = " << dos.obtenerX() << " y = " << dos->obtenerY() << endl;
   cout << "x = " << tres.obtenerX() << " y = " << tres->obtenerY() << endl;
 
+
   
 
 }

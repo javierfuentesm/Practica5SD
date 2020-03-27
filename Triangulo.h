@@ -19,7 +19,6 @@ public:
     Triangulo();
     void imprimeEsq();
 
-    
 };
 
 #endif //PRACTICA5_POLIGONOIRREGULAR_H
