@@ -18,6 +18,7 @@ private:
 public:
     Triangulo();
     void imprimeEsq();
+    
 
 };
 
